@@ -331,10 +331,12 @@
  * @default ["1","3","0","15"]
  * 
  * @param Structure
+ * @parent Advanced Types
  * @type struct<TestStruct>
  * @default {"Text":"orzFly","Note":"\"The quick brown fox jumps over the lazy dog.\\nThe lazy dog jumps over the quick brown fox.\\nThe quick brown fox jumps over the quick brown fox.\\nThe lazy dog jumps over the lazy dog.\"","Number":"233","Item":"1","Animation":"1","File (img/)":"system/GameOver"}
  * 
  * @param Structure List
+ * @parent Advanced Types
  * @type struct<TestStruct>[]
  * @default ["{\"Text\":\"orzFly\",\"Note\":\"\\\"The quick brown fox jumps over the lazy dog.\\\\nThe lazy dog jumps over the quick brown fox.\\\\nThe quick brown fox jumps over the quick brown fox.\\\\nThe lazy dog jumps over the lazy dog.\\\"\",\"Number\":\"233\",\"Item\":\"1\",\"Animation\":\"1\",\"File (img/)\":\"system/GameOver\"}"]
  */
@@ -731,8 +733,8 @@
  * @parent Boolean
  * @type boolean
  * @default true
- * @on Enable
- * @off Disable
+ * @on 启用
+ * @off 禁用
  *
  * @param Select
  * @text 单选框
@@ -801,11 +803,13 @@
  * @default ["1","3","0","15"]
  * 
  * @param Structure
+ * @parent Advanced Types
  * @text 结构
  * @type struct<TestStruct>
  * @default {"Text":"orzFly","Note":"\"那只敏捷的棕毛狐狸跃过那只懒狗。\\n那只懒狗跃过那只敏捷的棕毛狐狸。\\n那只敏捷的棕毛狐狸跃过那只敏捷的棕毛狐狸。\\n那只懒狗跃过那只懒狗。\"","Number":"233","Item":"1","Animation":"1","File (img/)":"system/GameOver"}
  * 
  * @param Structure List
+ * @parent Advanced Types
  * @text 结构列表
  * @type struct<TestStruct>[]
  * @default ["{\"Text\":\"orzFly\",\"Note\":\"\\\"那只敏捷的棕毛狐狸跃过那只懒狗。\\\\n那只懒狗跃过那只敏捷的棕毛狐狸。\\\\n那只敏捷的棕毛狐狸跃过那只敏捷的棕毛狐狸。\\\\n那只懒狗跃过那只懒狗。\\\"\",\"Number\":\"233\",\"Item\":\"1\",\"Animation\":\"1\",\"File (img/)\":\"system/GameOver\"}"]
