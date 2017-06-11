@@ -143,6 +143,7 @@
  * @param Float
  * @parent Numbers
  * @type number
+ * @decimals 2
  * @default 2.33
  *
  * @param Float (-3.00~3.00)
@@ -581,6 +582,7 @@
  * @text 小数
  * @parent Numbers
  * @type number
+ * @decimals 2
  * @default 2.33
  *
  * @param Float (-3.00~3.00)
